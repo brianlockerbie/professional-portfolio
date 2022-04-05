@@ -79,6 +79,11 @@ nav ul li {
     font-size: 58px;
 }
 
+.vert {
+    font-size: 40px;
+    font-style: bold;
+}
+
 .hero-img img {
     max-height: 200px;
     margin: 5px 25px;
@@ -181,7 +186,7 @@ nav ul li {
 
 .contact {
     width: 80%;
-    text-align: center;
+    text-align: right;
 }
 
 .contact ul li {
@@ -312,5 +317,124 @@ nav ul li {
 
     footer a {
         font-size: 90%;
+    }
+}
+
+/* Media Query For Tablets & Smaller */
+@media screen and (max-width: 768px) {
+    .section-title {
+        border-right: none;
+        margin-right: 15px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .hero-text {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        order: 2;
+        font-size: 12px;
+    }
+    
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .hero-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-img img {
+        max-height: 150px;
+        border-radius: 15px;
+    }
+
+    .about {
+        margin: 35px 15px 15px 15px;
+        align-items: center;
+        height: auto;
+        scroll-margin-top: 100px;
+    }
+
+    .about p {
+        width: 90%;
+        margin: 15px;
+    }
+
+    .work {
+        height: 550px;
+        margin: 15px;
+    }   
+
+    .projects div {
+        margin: 15px;
+    }
+    
+    .projects, .contact-list {
+        width: 90%;
+    }
+
+    .contact {
+        height: auto;
+        margin: 0 15px 25px 15px;
+    }
+}
+
+/* Media Query For Mobile Phones & Smaller */
+@media screen and (max-width: 575px) {
+    header h1 a {
+        font-size: 80%;
+    }
+
+    header nav ul {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 3px 10px;
+    }
+
+    nav ul li a, .contact ul li a {
+        padding: 3px;
+    }
+
+    .hero-img img {
+        max-height: 125px;
+        border-radius: 15px;
+    }
+
+    .section-title {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 11px;
+    }
+
+    .projects div {
+        margin: 10px;
+    }
+
+    .projects h4 {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .projects div:first-child h4 {
+        font-size: 20px;
+    } 
+
+    .contact ul li {
+        margin: 5px;
     }
 }
