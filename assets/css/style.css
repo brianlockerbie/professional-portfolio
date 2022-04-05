@@ -9,7 +9,51 @@ header {
     padding: 0px 0px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    background-color:darkgray;
+    background-color:grey;
+    color:black;
+    height: 100px;
+}
+
+header h1 {
+    font-size: 52px;
+    background-color: darkgrey;
+    color: black;
+    font-weight: normal;
+    padding: 20px 20px 20px 120px;
+}
+
+body {
+    background-color:darkgrey;
     color:black;
 }
+
+.seection-title {
+    width: 20%;
+    font-size: 40px;
+    margin-right: 50px;
+    padding:25;
+    text-align: right;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.hero {
+    background-image: url("../images/brian-lockerbie-header1.jpg");
+    background-size: 100%;
+    background-position: 100% 80%;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
