@@ -11,30 +11,31 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color:grey;
-    color:black;
+    background-color:var(--secondary-text-color);
+    color:var(--primary-text-color);
     height: 100px;
 }
 
 header h1 {
     font-size: 52px;
-    background-color: darkgrey;
-    color: black;
+    background-color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     font-weight: normal;
     padding: 20px 20px 20px 120px;
 }
 
 body {
-    background-color:darkgrey;
-    color:black;
+    background-color: var(--secondary-text-color);
+    color:var(--primary-text-color);
 }
 
 .seection-title {
     width: 20%;
     font-size: 40px;
     margin-right: 50px;
-    padding:25;
+    padding: 25px;
     text-align: right;
+    border-right: 2px solid var(--primary-text-color);
 }
 
 header {
@@ -43,17 +44,78 @@ header {
     top: 0;
 }
 
+header h1 a, nav ul li a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    margin: 5px 25px;
+}
+
 nav ul li {
     display: inline-block;
+    margin: 5px 25px;
 }
 
 .hero {
-    background-image: url("../images/brian-lockerbie-header1.jpg");
+    background-image: url("../images/brian-lockerbie-header.jpg");
     background-size: 100%;
     background-position: 100% 80%;
+    color: var(--primary-text-color);
+    padding: 25px;
     display: flex;
     height: 500px;
     justify-content: center;
     align-items: center;
 }
 
+.hero-text {
+    text-align: right;
+    color: var(--primary-text-color);
+    font-size: 20px;
+}
+
+.hero h2 {
+    font-size: 58px;
+}
+
+.hero-img img {
+    max-height: 200px;
+    margin: 5px 25px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.85);
+}
+
+/* Variables */
+:root {
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #000000;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px 50px 25px;
+    align-items: center;
+    height: 150px;
+    scroll-margin-top: 115px;
+}
+
+.about-me p {
+    text-align: left;
+    width: 80%;
+}
+
+.work {
+    margin: 25px 80px 25px 25px;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    justify-content: space-between;
+}
+
+.projects {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
