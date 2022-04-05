@@ -3,11 +3,11 @@
 
 ## Live Demo: 
 
-# Run Buddy Inc.
-
 ## Purpose:
 A portfolio dedicated to all my work I have created.
 
 ## Built With:
 * HTML
 * CSS
+
+## Screenshot:
