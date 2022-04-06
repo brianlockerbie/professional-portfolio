@@ -260,6 +260,10 @@ nav ul li {
         width: 50%;
     }
 
+    .vert {
+        font-size: 15px;
+    }
+
     .hero-img img {
         max-height: 175px;
     }
@@ -353,6 +357,11 @@ nav ul li {
     .hero-img img {
         max-height: 150px;
         border-radius: 15px;
+    }
+
+    .vert {
+        font-size: 15px;
+        font-style: bold;
     }
 
     .about {
