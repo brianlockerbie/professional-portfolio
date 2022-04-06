@@ -3,7 +3,9 @@
 
 ## Description: I have created a profile landing page of my work that can be showcase my skills and talents to employers.
 
-## 🕹 Live Demo: 
+## 🕹 Live Demo: https://brianlockerbie.github.io/professional-portfolio
+
+## Repo Demo: https://github.com/brianlockerbie/professional-portfolio
 
 ## Purpose:
 A portfolio dedicated to all my work I have created.
