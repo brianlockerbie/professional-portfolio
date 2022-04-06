@@ -1,5 +1,5 @@
 <h1 align="center">Professional Portfolio</h1>
-<p align="center">Challenge #2</p>
+<p align="center"><b>Module #2 Advanced CSS Challenge</b></p>
 
 ## Description: I have created a profile landing page of my work that can be showcase my skills and talents to employers.
 
