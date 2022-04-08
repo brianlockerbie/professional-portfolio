@@ -14,4 +14,4 @@ A portfolio dedicated to all my work I have created.
 * HTML
 * CSS
 
-## Screenshot:
+## Screenshot: <img src="./assets/images/portfolio_screenshot.png">
