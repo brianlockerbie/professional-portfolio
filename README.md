@@ -15,3 +15,5 @@ A portfolio dedicated to all my work I have created.
 * CSS
 
 ## Screenshot: <img src="./assets/images/portfolio_screenshot.png">
+
+<img src="./assets/images/portfolio_screenshot1.png">
