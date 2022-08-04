@@ -1,6 +1,7 @@
 <h1 align="center">Professional Portfolio</h1>
 
-## Description: I have created a profile landing page of my work that can showcase my skills and talents to employers.
+## Description: 
+I have created a profile landing page of my work that can showcase my skills and talents to employers.
 
 ## Technologies
 * HTML
