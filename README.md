@@ -1,6 +1,6 @@
 <h1 align="center">Professional Portfolio</h1>
 
-## Description: 
+## Description
 I have created a profile landing page of my work that can showcase my skills and talents to employers.
 
 ## Technologies
@@ -34,13 +34,14 @@ THEN I am taken to that deployed application<br>
 WHEN I resize the page or view the site on various screens and devices<br>
 THEN I am presented with a responsive layout that adapts to my viewport
 
-## Usage: 
+## Usage
 Live link [here](https://brianlockerbie.github.io/professional-portfolio)
 
 
 
+## Screenshot 
 
-## Screenshot: <img src="./assets/images/portfolio_screenshot.png">
+<img src="./assets/images/portfolio_screenshot.png">
 
 <img src="./assets/images/portfolio_screenshot1.png">
 
